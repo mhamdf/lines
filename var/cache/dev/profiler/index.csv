@@ -5,3 +5,8 @@ dbf739,127.0.0.1,GET,http://localhost:8000/css/vendore.bundle.css,1539169342,,40
 a3004b,127.0.0.1,GET,http://localhost:8000/images/calc-bg.jpg,1539169343,,404
 7fc984,127.0.0.1,GET,http://localhost:8000/images/calc-bg.jpg,1539169344,7eaa9a,200
 7eaa9a,127.0.0.1,GET,http://localhost:8000/images/calc-bg.jpg,1539169344,,404
+9c2eed,127.0.0.1,GET,http://localhost:8000/,1539172509,,200
+0b45ef,127.0.0.1,GET,http://localhost:8000/css/vendore.bundle.css,1539172512,a0f101,200
+a0f101,127.0.0.1,GET,http://localhost:8000/css/vendore.bundle.css,1539172512,,404
+c4ab6a,127.0.0.1,GET,http://localhost:8000/images/calc-bg.jpg,1539172514,5840d1,200
+5840d1,127.0.0.1,GET,http://localhost:8000/images/calc-bg.jpg,1539172514,,404
