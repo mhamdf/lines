@@ -309,8 +309,22 @@ class __TwigTemplate_1a1fb28191534eb10faec1e9a9904ac8cadb3e1ca013000c171eef28a82
        \t</div>
        \t<!--End Section -->
 
+        <!-- Section -->
+        <div class=\" map-bg-container \">
+          <div class=\"container\">
+            <div class=\"text-map\">
+                <h1>Hoooo ho ho hooo !</h1>
+                <h3>Sub-Title here lorem ipsum</h3>
+            </div>
+          </div>
+        </div>
+        <!-- End Section -->
+
+
+
+
        \t<!--Section -->
-       \t<div class=\"section section-pad\">
+       \t<div class=\"section  section-pad\">
        \t\t<div class=\"container\">
 
 
@@ -318,8 +332,13 @@ class __TwigTemplate_1a1fb28191534eb10faec1e9a9904ac8cadb3e1ca013000c171eef28a82
        \t</div>
        \t<!--End Section -->
 
+
+
+
+
+
        \t<!-- Section -->
-\t\t<div class=\"section section-pad-sm cta-small light\">
+\t\t<div class=\"section section-pad-sm bg-grey2 light\">
 \t\t\t<div class=\"cta-block\">
 \t\t\t\t<div class=\"container\">
 \t\t\t\t\t<div class=\"row mobile-center\">
@@ -349,6 +368,8 @@ class __TwigTemplate_1a1fb28191534eb10faec1e9a9904ac8cadb3e1ca013000c171eef28a82
 \t\t\t</div>
 \t\t</div>
 \t\t<!-- End Section -->
+
+
 
 
 
@@ -552,7 +573,7 @@ class __TwigTemplate_1a1fb28191534eb10faec1e9a9904ac8cadb3e1ca013000c171eef28a82
 
     public function getDebugInfo()
     {
-        return array (  374 => 9,  365 => 8,  79 => 170,  77 => 8,  73 => 6,  64 => 5,  46 => 3,  15 => 1,);
+        return array (  395 => 9,  386 => 8,  79 => 170,  77 => 8,  73 => 6,  64 => 5,  46 => 3,  15 => 1,);
     }
 
     public function getSourceContext()
@@ -959,8 +980,22 @@ class __TwigTemplate_1a1fb28191534eb10faec1e9a9904ac8cadb3e1ca013000c171eef28a82
        \t</div>
        \t<!--End Section -->
 
+        <!-- Section -->
+        <div class=\" map-bg-container \">
+          <div class=\"container\">
+            <div class=\"text-map\">
+                <h1>Hoooo ho ho hooo !</h1>
+                <h3>Sub-Title here lorem ipsum</h3>
+            </div>
+          </div>
+        </div>
+        <!-- End Section -->
+
+
+
+
        \t<!--Section -->
-       \t<div class=\"section section-pad\">
+       \t<div class=\"section  section-pad\">
        \t\t<div class=\"container\">
 
 
@@ -968,8 +1003,13 @@ class __TwigTemplate_1a1fb28191534eb10faec1e9a9904ac8cadb3e1ca013000c171eef28a82
        \t</div>
        \t<!--End Section -->
 
+
+
+
+
+
        \t<!-- Section -->
-\t\t<div class=\"section section-pad-sm cta-small light\">
+\t\t<div class=\"section section-pad-sm bg-grey2 light\">
 \t\t\t<div class=\"cta-block\">
 \t\t\t\t<div class=\"container\">
 \t\t\t\t\t<div class=\"row mobile-center\">
@@ -999,6 +1039,8 @@ class __TwigTemplate_1a1fb28191534eb10faec1e9a9904ac8cadb3e1ca013000c171eef28a82
 \t\t\t</div>
 \t\t</div>
 \t\t<!-- End Section -->
+
+
 
 
 

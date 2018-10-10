@@ -1416,6 +1416,29 @@ form label.error { display: none !important; }
 }
 
 
+.map-bg-container{
+  position: absolute; top: 0;
+  background-image: url("/images/svg/map-bg.svg");
+  background-color: #f7a;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode:screen;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.inc-bg{
+  background-image: url(/images/svg/inc.svg); background-position: bottom; background-repeat: repeat-x;
+}
+
+.map-bg-container:hover .map-bg-container,
+.map-bg-container:focus .map-bg-container{
+  background-color: #000f7a;
+  transform: scale(1.2);
+  transition: all .5s;
+}
 
 
 .canvtitle{
@@ -1427,6 +1450,14 @@ form label.error { display: none !important; }
 
 canvas{
   background: #fff;
+}
+
+.top-bg-grey2{
+  background-image: url(/images/svg/inc.svg) !important; background-position: bottom left !important; background-repeat: no-repeat !important;
+}
+
+.bg-grey2{
+  background-color: #eaeaea
 }
 
 .brain-container{
