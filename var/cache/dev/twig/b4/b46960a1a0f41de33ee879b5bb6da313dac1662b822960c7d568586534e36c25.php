@@ -936,6 +936,6 @@ class __TwigTemplate_76bf731e453a824c97c91f802e47123af74335adbd83b752167109b392f
         </table>
     {% endif %}
 {% endblock %}
-", "@WebProfiler/Collector/config.html.twig", "C:\\Users\\Mohamed\\Documents\\GitHub\\line\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\config.html.twig");
+", "@WebProfiler/Collector/config.html.twig", "E:\\Github\\lines\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\config.html.twig");
     }
 }

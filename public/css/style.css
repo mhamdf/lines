@@ -1428,3 +1428,13 @@ form label.error { display: none !important; }
 canvas{
   background: #fff;
 }
+
+.brain-container{
+  margin: 0 auto;
+  height: auto;
+}
+.brain-container svg{
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+}

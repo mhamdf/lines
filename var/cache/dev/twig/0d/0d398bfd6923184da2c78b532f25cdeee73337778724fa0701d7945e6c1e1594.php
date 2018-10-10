@@ -49,6 +49,6 @@ class __TwigTemplate_a7c258e40500efb5446f9551d1044a8b5ca8e354c1620330fb300237c83
     public function getSourceContext()
     {
         return new Twig_Source("<svg width=\"1792\" height=\"1792\" viewBox=\"0 0 1792 1792\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"#FFF\" d=\"M1363 877l-742 742q-19 19-45 19t-45-19l-166-166q-19-19-19-45t19-45l531-531-531-531q-19-19-19-45t19-45l166-166q19-19 45-19t45 19l742 742q19 19 19 45t-19 45z\"/></svg>
-", "@Twig/images/chevron-right.svg", "C:\\Users\\Mohamed\\Documents\\GitHub\\line\\vendor\\symfony\\twig-bundle\\Resources\\views\\images\\chevron-right.svg");
+", "@Twig/images/chevron-right.svg", "E:\\Github\\lines\\vendor\\symfony\\twig-bundle\\Resources\\views\\images\\chevron-right.svg");
     }
 }

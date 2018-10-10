@@ -46,7 +46,7 @@ class __TwigTemplate_070d79137bf31f5ecc4e2eefe38cc9ae03d5b667901a6f65065b371c9fe
         ";
         // line 9
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 24
+        // line 28
         echo "    </head>
     <body>
 
@@ -55,30 +55,30 @@ class __TwigTemplate_070d79137bf31f5ecc4e2eefe38cc9ae03d5b667901a6f65065b371c9fe
         <header class=\"site-header header-s1 is-sticky\">
 
           ";
-        // line 31
+        // line 35
         $this->displayBlock('navbar', $context, $blocks);
-        // line 112
+        // line 116
         echo "
         </header>
 
 
 
       ";
-        // line 117
+        // line 121
         $this->displayBlock('body', $context, $blocks);
-        // line 120
+        // line 124
         echo "
 
         ";
-        // line 122
+        // line 126
         $this->displayBlock('footer', $context, $blocks);
-        // line 143
+        // line 147
         echo "
 
         ";
-        // line 145
+        // line 149
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 159
+        // line 163
         echo "    </body>
 </html>
 ";
@@ -158,6 +158,10 @@ class __TwigTemplate_070d79137bf31f5ecc4e2eefe38cc9ae03d5b667901a6f65065b371c9fe
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/vendore.bundle.css"), "html", null, true);
         echo "\" rel=\"stylesheet\">
 
+          <!-- javascript -->
+          <script type=\"text/javascript\" src=\"//cdn.jsdelivr.net/npm/vivus@latest/dist/vivus.min.js\">
+
+          </script>
         ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -167,7 +171,7 @@ class __TwigTemplate_070d79137bf31f5ecc4e2eefe38cc9ae03d5b667901a6f65065b371c9fe
 
     }
 
-    // line 31
+    // line 35
     public function block_navbar($context, array $blocks = array())
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
@@ -176,7 +180,7 @@ class __TwigTemplate_070d79137bf31f5ecc4e2eefe38cc9ae03d5b667901a6f65065b371c9fe
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "navbar"));
 
-        // line 32
+        // line 36
         echo "            <!-- Navbar -->
             <div class=\"navbar navbar-primary\">
               <div class=\"container relative\">
@@ -265,7 +269,7 @@ class __TwigTemplate_070d79137bf31f5ecc4e2eefe38cc9ae03d5b667901a6f65065b371c9fe
 
     }
 
-    // line 117
+    // line 121
     public function block_body($context, array $blocks = array())
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
@@ -274,7 +278,7 @@ class __TwigTemplate_070d79137bf31f5ecc4e2eefe38cc9ae03d5b667901a6f65065b371c9fe
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        // line 118
+        // line 122
         echo "
       ";
         
@@ -285,7 +289,7 @@ class __TwigTemplate_070d79137bf31f5ecc4e2eefe38cc9ae03d5b667901a6f65065b371c9fe
 
     }
 
-    // line 122
+    // line 126
     public function block_footer($context, array $blocks = array())
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
@@ -294,7 +298,7 @@ class __TwigTemplate_070d79137bf31f5ecc4e2eefe38cc9ae03d5b667901a6f65065b371c9fe
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "footer"));
 
-        // line 123
+        // line 127
         echo "            <!-- Copyright -->
             <div class=\"copyright light\">
               <div class=\"container\">
@@ -323,7 +327,7 @@ class __TwigTemplate_070d79137bf31f5ecc4e2eefe38cc9ae03d5b667901a6f65065b371c9fe
 
     }
 
-    // line 145
+    // line 149
     public function block_javascripts($context, array $blocks = array())
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
@@ -332,7 +336,7 @@ class __TwigTemplate_070d79137bf31f5ecc4e2eefe38cc9ae03d5b667901a6f65065b371c9fe
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 146
+        // line 150
         echo "        <!-- Javascripts -->
         <script src=\"/js/jquery.bundle.js\"></script>
         <script src=\"/js/script.js\"></script>
@@ -361,7 +365,7 @@ class __TwigTemplate_070d79137bf31f5ecc4e2eefe38cc9ae03d5b667901a6f65065b371c9fe
 
     public function getDebugInfo()
     {
-        return array (  336 => 146,  327 => 145,  298 => 123,  289 => 122,  278 => 118,  269 => 117,  180 => 32,  171 => 31,  158 => 21,  154 => 20,  150 => 19,  145 => 17,  141 => 16,  137 => 15,  133 => 14,  129 => 13,  125 => 12,  121 => 10,  112 => 9,  94 => 7,  82 => 159,  80 => 145,  76 => 143,  74 => 122,  70 => 120,  68 => 117,  61 => 112,  59 => 31,  50 => 24,  48 => 9,  45 => 8,  43 => 7,  35 => 1,);
+        return array (  340 => 150,  331 => 149,  302 => 127,  293 => 126,  282 => 122,  273 => 121,  184 => 36,  175 => 35,  158 => 21,  154 => 20,  150 => 19,  145 => 17,  141 => 16,  137 => 15,  133 => 14,  129 => 13,  125 => 12,  121 => 10,  112 => 9,  94 => 7,  82 => 163,  80 => 149,  76 => 147,  74 => 126,  70 => 124,  68 => 121,  61 => 116,  59 => 35,  50 => 28,  48 => 9,  45 => 8,  43 => 7,  35 => 1,);
     }
 
     public function getSourceContext()
@@ -388,6 +392,10 @@ class __TwigTemplate_070d79137bf31f5ecc4e2eefe38cc9ae03d5b667901a6f65065b371c9fe
           <link href=\"{{ asset('css/theme-color.css')}}\" rel=\"stylesheet\">
           <link href=\"{{ asset('css/vendore.bundle.css')}}\" rel=\"stylesheet\">
 
+          <!-- javascript -->
+          <script type=\"text/javascript\" src=\"//cdn.jsdelivr.net/npm/vivus@latest/dist/vivus.min.js\">
+
+          </script>
         {% endblock %}
     </head>
     <body>
@@ -526,6 +534,6 @@ class __TwigTemplate_070d79137bf31f5ecc4e2eefe38cc9ae03d5b667901a6f65065b371c9fe
         {% endblock %}
     </body>
 </html>
-", "template.html.twig", "C:\\Users\\Mohamed\\Documents\\GitHub\\line\\templates\\template.html.twig");
+", "template.html.twig", "E:\\Github\\lines\\templates\\template.html.twig");
     }
 }
