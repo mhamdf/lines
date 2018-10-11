@@ -1,8 +1,6 @@
 .divved {
   position: relative;
   background-color: black;
-  height: 75vh;
-  min-height: 25rem;
   width: 100%;
   overflow: hidden;
 }
@@ -27,20 +25,10 @@
   z-index: 2;
 }
 .canvtitle1{
+  padding: 10em 0;
   text-align: center;
     width: 100%;
-    margin-top: 200px;
-    position: absolute;
-}
-.divved .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: gray;
-  opacity: 0.5;
-  z-index: 1;
+    position: relative;
 }
 
 @media (pointer: coarse) and (hover: none) {
