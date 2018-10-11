@@ -1469,3 +1469,53 @@ canvas{
   width: 80%;
   height: auto;
 }
+
+
+  .boxo
+  {
+  	display: inline-block;
+     float:left;
+  	height:200px;
+  	overflow: hidden;
+  	width:20%;
+
+  	-webkit-transition: width 1s;
+  	-moz-transition: width 1s;
+          transition: width 1s;
+  }
+  .boxo.home      { background-color: #F9EFED; }
+  .boxo.about     { background-color: #FAD4CB; }
+  .boxo.portfolio { background-color: #F4A395; }
+  .boxo.services  { background-color: #FAD4CB; }
+  .boxo.contact   { background-color: #F9EFED; }
+
+  .boxo a
+  {
+  	color:#FFF;
+  	text-decoration: none;
+  	text-align: center;
+  	vertical-align: middle;
+  	height:100%;
+  	display:block;
+     padding-top: 10px;
+  }
+
+  .boxo span
+  {
+      display:block;
+      position:relative;
+      top:100%;
+      text-align: center;
+
+      -webkit-transition: top 1s;
+      -moz-transition: top 1s;
+      transition: top 1s;
+  }
+
+  .nav:hover .boxo { width:10%; }
+
+  .nav .boxo:hover { width: 60%; }
+
+    .boxo:hover span{ top:0%; }
+    .boxo:hover .txt { display: none;}
+    .txt { display: block; color: #000;}
