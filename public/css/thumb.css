@@ -1,0 +1,27 @@
+.city-bg{
+  background: url(/images/svg/city.svg);
+  background-position: bottom center;
+  background-repeat: repeat-x;
+  min-height: 50px;
+  position: relative;
+  padding-top:200px;
+}
+
+.car{
+}
+
+.left-to-right{
+    -webkit-animation: linear infinite ;
+      transition: all 2s ;
+      -webkit-transition: all 2s ; /** Chrome & Safari **/
+      -moz-transition: all 2s ; /** Firefox **/
+      -o-transition: all 2s ; /** Opera **/
+      position: relative;
+      animation-duration: 10s;
+      animation-name: carannim;
+}
+
+@-webkit-keyframes carannim {
+    0%  {left:0%;}
+    100% {left:100%; }
+}
